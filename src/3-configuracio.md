@@ -35,7 +35,7 @@ Anirem a activar i configurar el plugin de JavaFX.
 
 Quan polsem [Finish] el sistema ens mostrarà un avis indicant-nos que ha detectat i connectat Scene Builder.
 
-D’aquesta manera NetBeans detectarà on està l’executable i farà ús d’aquest en el moment de la edició.
+D'aquesta manera NetBeans detectarà on està l'executable i farà ús d'aquest en el moment de la edició.
 
 ![Esquema d'herència](/uf11/tools_javafx2.jpg)
 

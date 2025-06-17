@@ -57,7 +57,7 @@ interacció humà-computadora.
 
 | Eina                         | Descripció |
 |------------------------------|------------|
-| ![Scene builder](/uf11/Scene_builder.jpg) | Permet dissenyar, mitjançant una interfície gràfica, les estructures de la interfície d’usuari de les aplicacions desenvolupades amb JavaFX. Genera arxius FXML amb el codi descriptiu de la interfície gràfica. [Descarregar](https://gluonhq.com/products/scene-builder/) |
+| ![Scene builder](/uf11/Scene_builder.jpg) | Permet dissenyar, mitjançant una interfície gràfica, les estructures de la interfície d'usuari de les aplicacions desenvolupades amb JavaFX. Genera arxius FXML amb el codi descriptiu de la interfície gràfica. [Descarregar](https://gluonhq.com/products/scene-builder/) |
 | ![Net Beans](/uf11/Net_Beans.jpg) | Entorn de desenvolupament integrat (IDE) lliure que es pot configurar per a integrar les llibreries de JavaFX i interconnectar-lo amb Scene Builder. [Descarregar](https://netbeans.apache.org/front/main/download/nb25/) |
 | ![JavaFX](/uf11/JavaFX.jpg) | Biblioteca Java per a crear i desplegar aplicacions amb interfícies gràfiques (GUI). Es pot construir amb codi Java o arxius FXML. [Descarregar](https://gluonhq.com/products/javafx/) |
 | ![Java JDK FX](/uf11/Java_JDK_FX.jpg) | Versió del JDK preparada per a JavaFX. [Descarregar](https://www.azul.com/downloads/?package=jdk-fx#zulu) |
@@ -111,7 +111,7 @@ Anirem a activar i configurar el plugin de JavaFX.
 
 Quan polsem [Finish] el sistema ens mostrarà un avis indicant-nos que ha detectat i connectat Scene Builder.
 
-D’aquesta manera NetBeans detectarà on està l’executable i farà ús d’aquest en el moment de la edició.
+D'aquesta manera NetBeans detectarà on està l'executable i farà ús d'aquest en el moment de la edició.
 
 <div style="border: 6px solid rgb(240, 102, 61); max-width: 70%; margin: 0 auto; text-align: center;">
     <img src="/uf11/tools_javafx2.jpg" style="max-width: 100%; height: auto;" alt="Esquema d'herència">
@@ -210,7 +210,7 @@ El primer que haurem de fer és incloure la llibreria de JavaFX en les llibrerie
 
 - Per a crear un nou projecte farem com sempre: `File` → `New Project`
 - A continuació, configurarem el tipus de projecte.
-  - Seleccionarem la Categoria *Java with Ant* i dins d’aquesta JavaFX.
+  - Seleccionarem la Categoria *Java with Ant* i dins d'aquesta JavaFX.
   - En **Projects** triarem *JavaFX FXML Application* i polsarem `Next`.
   - Anomenem el projecte i seleccionem la plataforma que hem creat.
 
@@ -230,10 +230,10 @@ El primer que haurem de fer és incloure la llibreria de JavaFX en les llibrerie
 
 ### 4.1. Configuració
 
-- Una vegada tenim el projecte creat hem d’afegir la llibreria que hem creat de JavaFX.
+- Una vegada tenim el projecte creat hem d'afegir la llibreria que hem creat de JavaFX.
   - Ens situarem en la carpeta Libraries i polsarem botó dret.
-  - Seleccionarem l’opció `Add Library`.
-  - Cercarem la llibreria JavaFX i polsarem `Add Library`. Veurem com s’ha incorporat el conjunt de llibreries.
+  - Seleccionarem l'opció `Add Library`.
+  - Cercarem la llibreria JavaFX i polsarem `Add Library`. Veurem com s'ha incorporat el conjunt de llibreries.
 
 Podem fer una prova executant la classe principal.
 
@@ -271,7 +271,7 @@ Podem fer una prova executant la classe principal.
 El nostre projecte està dividit en tres parts.
 
 **VISTA (FXMLDocument.fxml)**
-Es tracta d’un arxiu en format fxml. Si polsem botó dret i Editar verem el contingut. Si fem doble clic s’obrirà la visualització en Scene Builder on podrem dibuixar la part gràfica
+Es tracta d'un arxiu en format fxml. Si polsem botó dret i Editar verem el contingut. Si fem doble clic s'obrirà la visualització en Scene Builder on podrem dibuixar la part gràfica
 amb contenidors i objectes gràfics.
 
 **CONTROLADOR(FXMLDocumentController.java)**
@@ -388,7 +388,7 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 
   També mostra els identificadors que s'han assignat als elements del disseny que el tinguen.
 
-  S’ha de tindre en compte que si canvies el nom de la classe controladora des de NetBeans o la mous a un altre paquet de fonts, hauràs de canviar les noves dades en aquest apartat.
+  S'ha de tindre en compte que si canvies el nom de la classe controladora des de NetBeans o la mous a un altre paquet de fonts, hauràs de canviar les noves dades en aquest apartat.
 
 </div>
 
@@ -494,7 +494,7 @@ En l'apartat Anchor Pane Constraints és podran definir els marges respecte al p
 
 <div style="flex: 0.9; padding: 10px; text-align: justify;">
 
-L'apartat **Code** permet configurar una part del codi. Es poden codificar els events de teclat, ratolí, touch (per a pantalles tàctils), etc. que després es gestionaran des de l’arxiu Controller.
+L'apartat **Code** permet configurar una part del codi. Es poden codificar els events de teclat, ratolí, touch (per a pantalles tàctils), etc. que després es gestionaran des de l'arxiu Controller.
 
 </div>
 
@@ -518,9 +518,9 @@ L'apartat **Code** permet configurar una part del codi. Es poden codificar els e
 
 <div style="flex: 0.9; padding: 10px; text-align: justify;">
 
-Després de qualsevol canvi que es realitze en l'apartat Code, i després de guardar els canvis de l'arxiu en Scene Builder, s’ha d'actualitzar la informació en la classe controladora de NetBeans.
+Després de qualsevol canvi que es realitze en l'apartat Code, i després de guardar els canvis de l'arxiu en Scene Builder, s'ha d'actualitzar la informació en la classe controladora de NetBeans.
 
-Per a fer-ho s’hi ha d'utilitzar l'opció **`Make Controller`** del menú contextual de l'arxiu FXML en NetBeans.
+Per a fer-ho s'hi ha d'utilitzar l'opció **`Make Controller`** del menú contextual de l'arxiu FXML en NetBeans.
 
 És a dir, si s'indica un nom d'un mètode per a una acció, per exemple, quan l'usuari moga el ratolí dins del botó, s'ha de seleccionar Make Controller perquè es declare aquest mètode en el controlador.
 
