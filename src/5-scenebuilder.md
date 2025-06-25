@@ -77,7 +77,7 @@ Si obrim l'arxiu *FXMLDocument.fxml* (doble clic) se'ns obrirà Scene Builder on
 
   També mostra els identificadors que s'han assignat als elements del disseny que el tinguen.
 
-  S’ha de tindre en compte que si canvies el nom de la classe controladora des de NetBeans o la mous a un altre paquet de fonts, hauràs de canviar les noves dades en aquest apartat.
+  S'ha de tindre en compte que si canvies el nom de la classe controladora des de NetBeans o la mous a un altre paquet de fonts, hauràs de canviar les noves dades en aquest apartat.
 
 </div>
 
@@ -168,7 +168,7 @@ En l'apartat Anchor Pane Constraints és podran definir els marges respecte al p
 
 <div style="flex: 0.9; padding: 10px; text-align: justify;">
 
-L'apartat **Code** permet configurar una part del codi. Es poden codificar els events de teclat, ratolí, touch (per a pantalles tàctils), etc. que després es gestionaran des de l’arxiu Controller.
+L'apartat **Code** permet configurar una part del codi. Es poden codificar els events de teclat, ratolí, touch (per a pantalles tàctils), etc. que després es gestionaran des de l'arxiu Controller.
 
 </div>
 
@@ -188,9 +188,9 @@ L'apartat **Code** permet configurar una part del codi. Es poden codificar els e
 
 <div style="flex: 0.9; padding: 10px; text-align: justify;">
 
-Després de qualsevol canvi que es realitze en l'apartat Code, i després de guardar els canvis de l'arxiu en Scene Builder, s’ha d'actualitzar la informació en la classe controladora de NetBeans.
+Després de qualsevol canvi que es realitze en l'apartat Code, i després de guardar els canvis de l'arxiu en Scene Builder, s'ha d'actualitzar la informació en la classe controladora de NetBeans.
 
-Per a fer-ho s’hi ha d'utilitzar l'opció **`Make Controller`** del menú contextual de l'arxiu FXML en NetBeans.
+Per a fer-ho s'hi ha d'utilitzar l'opció **`Make Controller`** del menú contextual de l'arxiu FXML en NetBeans.
 
 És a dir, si s'indica un nom d'un mètode per a una acció, per exemple, quan l'usuari moga el ratolí dins del botó, s'ha de seleccionar Make Controller perquè es declare aquest mètode en el controlador.
 
